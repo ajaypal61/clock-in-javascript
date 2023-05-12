@@ -11,7 +11,7 @@ const updateTime = () =>{
         am_and_pm.innerHTML= "PM";
     }else{
         am_and_pm="AM";
-    }
+    }  
 
     if(hour>12){
         hour = hour - 12;
